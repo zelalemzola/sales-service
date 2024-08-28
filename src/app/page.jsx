@@ -30,7 +30,7 @@ export default function Home() {
         </button>
       </div>
       </div>
-      <div className='h-screen w-full about py-[15%]'>
+      <div className='md:h-screen w-full about py-[20%] md:py-[15%]'>
           <h1 className='text-4xl font-extrabold text-primary text-center'>About <span className='text-secondary'>Us</span></h1>
           <div className='w-[80%] mx-auto pt-[5%]'> 
             <TextGenerateEffect words={words} />
