@@ -46,7 +46,7 @@ export default function Home() {
       </TabsList>
       <TabsContent value="solution">
        <div className=' bg-muted p-4 relative'>
-        <h1 className='text-4xl font-bold text-primary underline decoration-secondary'>Comprehensive Sales Solutions</h1>
+        <h1 className='text-3xl md:text-4xl font-bold text-primary underline decoration-secondary'>Comprehensive Sales Solutions</h1>
         <div className='flex py-4 items-center'>
         <div className='w-full md:w-1/2'>
         <p className='text-lg text-secondary'>We provide end-to-end sales solutions tailored to your business needs. Our team of seasoned sales experts works closely with you to develop strategies that deliver measurable results. From lead generation to closing deals, we’ve got you covered.</p>
@@ -59,7 +59,7 @@ export default function Home() {
       </TabsContent>
       <TabsContent value="trained">
         <div className=' bg-muted p-4 relative'>
-        <h1 className='text-4xl font-bold text-primary underline decoration-secondary'>Hire Trained Sales Professionals</h1>
+        <h1 className='text-3xl md:text-4xl font-bold text-primary underline decoration-secondary'>Hire Trained Sales Professionals</h1>
         <div className='flex py-4 items-center'>
         <div className='hidden md:block md:w-1/2'>
         <Image src='/sr2.png' width={600} height={600} alt=''/>
@@ -76,8 +76,8 @@ export default function Home() {
        </div>
       </TabsContent>
       <TabsContent value="team">
-       <div className=' bg-muted p-4 relative'>
-        <h1 className='text-4xl font-bold text-primary underline decoration-secondary'>Sales Team Augmentation</h1>
+       <div className=' bg-muted p-4 relative '>
+        <h1 className='text-3xl md:text-4xl font-bold text-primary underline decoration-secondary'>Sales Team Augmentation</h1>
         <div className='flex py-4 items-center'>
         <div className='w-full md:w-1/2'>
         <p className='text-lg text-secondary'>Looking to scale your sales team? We provide seamless team augmentation services, allowing you to expand your sales force without the overhead. Our professionals integrate with your existing team, bringing fresh energy and expertise to drive results..</p>
