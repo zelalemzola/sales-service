@@ -21,7 +21,7 @@ export default function Home() {
       <div className='md:w-[50%]'></div>
       <div className='w-full md:w-[50%] flex flex-col items-center justify-center gap-3'>
         <h1 className='text-5xl text-[#4d4d4d] font-extrabold'>PREMIER</h1>
-        <h1 className='text-4xl md:text-5xl text-primary font-extrabold'> Sales a Service Solution</h1>
+        <h1 className='text-3xl md:text-5xl text-primary font-extrabold text-center'> Sales a Service Solution</h1>
         <p className='mt-2 p-3 border-2  border-primary rounded-full text-lg text-secondary'>Focus on what actually matters</p>
          <button className=' bg-secondary hover:bg-secondary hover:shadow-lg text-white shadow-md rounded-full' >
       <Link href='/workers' className='flex items-center gap-2 p-3 px-5 '>
@@ -36,7 +36,7 @@ export default function Home() {
             <TextGenerateEffect words={words} />
             </div>
       </div>
-      <div className='h-screen w-full py-8 px-10'>
+      <div className='md:h-screen w-full py-8 px-10'>
         <h1 className='text-4xl text-primary font-extrabold text-center py-4'>Our <span className='text-secondary'>Services</span></h1>
          <Tabs defaultValue="solution" className="w-[90%] mx-auto">
       <TabsList className="grid w-full grid-rows-3 md:grid-rows-1 md:grid-cols-3">
