@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { TextGenerateEffect } from "@/components/text-generate-effect";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ArrowDown, ArrowRight, Facebook, Instagram, Linkedin, Mail, Phone, Search, Twitter } from "lucide-react";
+import Partners from "@/components/Partners";
 
 
 const words = `“At [Your Company Name], we’re not just another sales company—we’re your partner in driving success. Whether you need expert sales solutions or skilled professionals to boost your team, we have the right resources to take your business to the next level. We offer a unique blend of sales strategies, comprehensive training, and rigorous background checks to ensure that you only get the best.”`;
@@ -58,7 +59,7 @@ export default function Home() {
       </TabsContent>
       <TabsContent value="trained">
         <div className=' bg-muted p-4 relative'>
-        <h1 className='text-4xl font-bold text-primary underline decoration-secondary'>Comprehensive Sales Solutions</h1>
+        <h1 className='text-4xl font-bold text-primary underline decoration-secondary'>Hire Trained Sales Professionals</h1>
         <div className='flex py-4 items-center'>
         <div className='hidden md:block md:w-1/2'>
         <Image src='/sr2.png' width={600} height={600} alt=''/>
@@ -145,6 +146,9 @@ export default function Home() {
           
         </div>
       </div>
+
+      <Partners/>
+
       <div className='py-5 px-3 w-full flex flex-col gap-2'>
         <div className='border-2 border-secondary shadow-lg '></div>
         <h2 className='text-primary text-3xl font-extrabold pt-4 '>Join Our Network</h2>
