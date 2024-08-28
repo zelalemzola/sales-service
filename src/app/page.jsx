@@ -13,7 +13,7 @@ const words = `“At [Your Company Name], we’re not just another sales company
 export default function Home() {
   return (
     <div className='w-full'>
-     <div className='flex items-center justify-between px-6 md:px-20 py-3 fixed  top-0 left-0 w-full'>
+     <div className='flex items-center justify-between px-6 md:px-20 py-3 fixed z-30  top-0 left-0 w-full'>
         <Link href='/' className='text-secondary font-bold '>Sales Inc.</Link>
         <HeroButton/>
       </div>
