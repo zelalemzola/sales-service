@@ -195,7 +195,7 @@ const Workers = () => {
           </DialogContent>
         </Dialog>
       </div>
-
+  
       {(!maidsData || !categoriesData)?<div className='pt-[40%] text-xl text-secondary font-bold mx-auto'>Loading Workers...</div>
       :
             <div className="flex flex-wrap items-center justify-center gap-x-2 md:gap-x-8 gap-y-20 pt-[20%] md:pt-[15%] z-0 ">
