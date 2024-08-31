@@ -5,17 +5,43 @@ import HeroButton from "@/components/HeroButton";
 import { Button } from "@/components/ui/button";
 import { TextGenerateEffect } from "@/components/text-generate-effect";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ArrowDown, ArrowRight, Facebook, Instagram, Linkedin, Mail, Phone, Search, Twitter } from "lucide-react";
+import { ArrowDown, ArrowRight, Facebook, Instagram, Linkedin, Mail, Menu, Phone, Search, Twitter } from "lucide-react";
 import Partners from "@/components/Partners";
+import { Drawer, DrawerClose, DrawerContent, DrawerFooter, DrawerTrigger } from "@/components/ui/drawer";
 
 
 const words = `“At [Your Company Name], we’re not just another sales company—we’re your partner in driving success. Whether you need expert sales solutions or skilled professionals to boost your team, we have the right resources to take your business to the next level. We offer a unique blend of sales strategies, comprehensive training, and rigorous background checks to ensure that you only get the best.”`;
 export default function Home() {
   return (
     <div className='w-full'>
-     <div className='flex items-center justify-between px-6 md:px-20 py-3 fixed z-30  top-0 left-0 w-full'>
+     <div className='flex items-center justify-between px-6 md:px-10 py-3 fixed z-30  top-0 left-0 w-full bg-white'>
         <Link href='/' className='text-secondary font-bold '>Sales Inc.</Link>
+       <div className='hidden md:flex items-center gap-6 '>
+        <Link href='/' className='text-secondary font-bold hover:bg-secondary hover:text-white p-2 rounded-lg'> Home</Link>
+        <Link href='/about' className='text-secondary font-bold hover:bg-secondary hover:text-white p-2 rounded-lg'> About Us</Link>
+        <Link href='/services' className='text-secondary font-bold hover:bg-secondary hover:text-white p-2 rounded-lg'> Services</Link>
         <HeroButton/>
+        </div>
+         <div className='block md:hidden'>
+                <Drawer>
+          <DrawerTrigger>
+         <Menu className=' cursor-pointer text-secondary font-extrabold text-lg scale-[150%]'/>
+          </DrawerTrigger>
+          <DrawerContent className='h-[40%]'>
+            <div className=' flex   gap-4 flex-col px-6'>
+            <Link href='/'  className='hover:bg-secondary hover:text-white font-bold p-2 w-full text-center rounded-xl'>Home</Link>
+            <Link href='/about'  className='hover:bg-secondary hover:text-white font-bold p-2 w-full text-center rounded-xl'>About us</Link>
+            <Link href='/services'className='hover:bg-secondary hover:text-white font-bold p-2 w-full text-center rounded-xl'>Services</Link>
+            <HeroButton/> 
+            </div>
+            <DrawerFooter className='px-6'>
+              <DrawerClose>
+              <Button variant="outline" className='w-full'>Close</Button>
+              </DrawerClose>
+            </DrawerFooter>
+          </DrawerContent>
+        </Drawer>
+      </div>
       </div>
       <div className='landing h-screen w-full flex '>
       <div className='md:w-[50%]'></div>
@@ -114,9 +140,6 @@ export default function Home() {
             <h2 className='text-secondary text-lg w-full font-bold'>Commitment to Excellence: </h2>
             <p className='text-white py-2'> We are committed to delivering exceptional service and driving tangible results for your business.</p>
           </div>
-         
-       
-       
         </div>
       </div>
       <div className='md:h-screen w-full py-5 px-4'>

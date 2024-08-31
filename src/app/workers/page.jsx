@@ -122,12 +122,12 @@ const Workers = () => {
   const router = useRouter();
   return (
     <div className="w-full mx-auto mt-[20px] flex flex-col ">
-      <div className="w-full flex flex-wrap items-center justify-between fixed top-0 z-30 bg-white border-b rounded-b-2xl px-[5%] md:px-[10%] py-3 shadow-md">
+      <div className="w-full flex flex-wrap items-center justify-between fixed top-0 z-30 bg-white border-b rounded-b-2xl px-[4%] md:px-[10%] py-3 shadow-md">
       <Link href='/'><ArrowLeft fontWeight='bold' size={33} className="text-white bg-secondary font-bold p-1 rounded-full md:scale-200 cursor-pointer" /></Link>
         <p className="text-secondary text-lg md:text-2xl font-bold flex items-center gap-6">Available Accountants</p>
         <Dialog className="flex-end">
           <DialogTrigger>
-            <Button className="flex items-center gap-3 bg-secondary hover:bg-secondary">Filter <FilterIcon /></Button>
+            <Button className="flex items-center gap-3 bg-secondary hover:bg-secondary">Filter <FilterIcon className='hidden md:block'/></Button>
           </DialogTrigger>
           <DialogContent className="px-2 w-[96%] md:w-fit rounded-xl">
             <DialogHeader className="mx-auto">
