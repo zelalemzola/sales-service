@@ -92,9 +92,9 @@ export default function Home() {
         </div>
         <div className='w-full md:w-1/2 flex flex-col gap-2'>
         <p className='text-lg text-secondary'>Need extra hands on deck? Choose from our pool of professionals who have been rigorously trained and vetted to meet the highest industry standards. Whether you need someone for a specific project or ongoing support, our professionals are available for:</p>
-        <p className='text-lg text-secondary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full '/> Hourly Engagements:</span> Flexibility to meet your immediate needs without long-term commitments.</p>
-        <p className='text-lg text-secondary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full '/> Monthly Contracts:</span> Bring in the expertise you need for sustained growth and consistent performance.</p>
-        <p className='text-lg text-secondary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full '/> Project-Based Contracts: </span>  Leverage top-tier talent for the duration of your projects, ensuring quality outcomes every time.</p>
+        <p className='text-lg text-secondary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Hourly Engagements:</span> Flexibility to meet your immediate needs without long-term commitments.</p>
+        <p className='text-lg text-secondary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Monthly Contracts:</span> Bring in the expertise you need for sustained growth and consistent performance.</p>
+        <p className='text-lg text-secondary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Project-Based Contracts: </span>  Leverage top-tier talent for the duration of your projects, ensuring quality outcomes every time.</p>
        
         </div>
         
