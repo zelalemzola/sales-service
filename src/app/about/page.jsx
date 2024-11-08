@@ -6,7 +6,7 @@ import { Menu } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react'
 
-const words = `“At [Your Company Name], we’re not just another sales company—we’re your partner in driving success. Whether you need expert sales solutions or skilled professionals to boost your team, we have the right resources to take your business to the next level. We offer a unique blend of sales strategies, comprehensive training, and rigorous background checks to ensure that you only get the best.”`;
+const words = `“At Sales Inc, we’re not just another sales company—we’re your partner in driving success. Whether you need expert sales solutions or skilled professionals to boost your team, we have the right resources to take your business to the next level. We offer a unique blend of sales strategies, comprehensive training, and rigorous background checks to ensure that you only get the best.”`;
 const AboutPage = () => {
   return (
     <>
