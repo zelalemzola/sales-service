@@ -80,6 +80,7 @@ const Workers = () => {
 
   useEffect(() => {
     filterMaids();
+     const maidsCount = maidsData?.maids?.length || 0;
   }, [maidsData, selectedCategory, selectedPriceHourRange,selectedPriceMonthRange, filterMaids]);
 
   const handleSelect = (event) => {
@@ -116,7 +117,7 @@ const Workers = () => {
     setSelectedPriceMonthRange([0, 100000]); // Reset to default max price
     setSelectedPriceHourRange([0, 200]); // Reset to default max price
   };
-
+ 
   // if (maidsError || categoriesError) return <div>Failed to load data</div>;
   // if (!maidsData || !categoriesData) return <div>Loading...</div>;
   const router = useRouter();
@@ -124,7 +125,7 @@ const Workers = () => {
     <div className="w-full mx-auto mt-[20px] flex flex-col ">
       <div className="w-full flex flex-wrap items-center justify-between fixed top-0 z-30 bg-white border-b rounded-b-2xl px-[4%] md:px-[10%] py-3 shadow-md">
       <Link href='/'><ArrowLeft fontWeight='bold' size={33} className="text-white bg-secondary font-bold p-1 rounded-full md:scale-200 cursor-pointer" /></Link>
-        <p className="text-secondary text-lg md:text-2xl font-bold flex items-center gap-6">Available Accountants</p>
+        <p className="text-secondary text-lg md:text-2xl font-bold flex flex-col md:flex-row items-center gap-6">Available Accountants: <span className="text-secondary">({maidsCount})</span></p>
         <Dialog className="flex-end">
           <DialogTrigger>
             <Button className="flex items-center gap-3 bg-secondary hover:bg-secondary">Filter <FilterIcon className='hidden md:block'/></Button>
@@ -198,7 +199,7 @@ const Workers = () => {
   
       {(!maidsData || !categoriesData)?<div className='pt-[40%] text-xl text-secondary font-bold mx-auto'>Loading Workers...</div>
       :
-            <div className="flex flex-wrap items-center justify-center gap-x-2 md:gap-x-8 gap-y-20 pt-[20%] md:pt-[15%] z-0 ">
+            <div className="flex flex-wrap items-center justify-center gap-x-2 md:gap-x-8 gap-y-20 pt-[22%] md:pt-[15%] z-0 pb-10">
         {filteredMaids.map((maid) => (
           <Card key={maid._id} className="relative shadow-lg py-4 md:p-4 scale-[90%] md:scale-100 bg-primary text-white hover:shadow-xl">
             <CardHeader>
