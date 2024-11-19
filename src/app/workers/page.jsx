@@ -80,7 +80,7 @@ const Workers = () => {
 
   useEffect(() => {
     filterMaids();
-     const maidsCount = maidsData?.maids?.length || 0;
+     
   }, [maidsData, selectedCategory, selectedPriceHourRange,selectedPriceMonthRange, filterMaids]);
 
   const handleSelect = (event) => {
@@ -117,7 +117,7 @@ const Workers = () => {
     setSelectedPriceMonthRange([0, 100000]); // Reset to default max price
     setSelectedPriceHourRange([0, 200]); // Reset to default max price
   };
- 
+ const maidsCount = maidsData?.maids?.length || 0;
   // if (maidsError || categoriesError) return <div>Failed to load data</div>;
   // if (!maidsData || !categoriesData) return <div>Loading...</div>;
   const router = useRouter();
