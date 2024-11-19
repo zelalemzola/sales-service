@@ -11,7 +11,7 @@ import { Drawer, DrawerClose, DrawerContent, DrawerFooter, DrawerTrigger } from 
 import Workers from "@/components/Workers";
 
 
-const words = `“At Elevate Sales Inc, we&apos;re not just another sales company—we&apos;re your partner in driving success. Whether you need expert sales solutions or skilled professionals to boost your team, we have the right resources to take your business to the next level. We offer a unique blend of sales strategies, comprehensive training, and rigorous background checks to ensure that you only get the best.”`;
+const words = `“At Elevate Sales Inc, we're not just another sales company—we're your partner in driving success. Whether you need expert sales solutions or skilled professionals to boost your team, we have the right resources to take your business to the next level. We offer a unique blend of sales strategies, comprehensive training, and rigorous background checks to ensure that you only get the best.”`;
 export default function Home() {
   return (
     <div className='w-full'>
