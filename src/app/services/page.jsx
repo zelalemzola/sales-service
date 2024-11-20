@@ -14,7 +14,7 @@ const Services = () => {
   return (
     <>
     <div className='flex items-center justify-between px-6 md:px-10 py-3 fixed z-30  top-0 left-0 w-full bg-white'>
-        <Link href='/' className='text-secondary font-bold '>Elevate Sales Inc.</Link>
+        <Link href='/' className='text-secondary font-bold '>Elevate PLC.</Link>
        <div className='hidden md:flex items-center gap-6 '>
         <Link href='/' className='text-secondary font-bold hover:bg-secondary hover:text-white p-2 rounded-lg'> Home</Link>
         <Link href='/about' className='text-secondary font-bold hover:bg-secondary hover:text-white p-2 rounded-lg'> About Us</Link>

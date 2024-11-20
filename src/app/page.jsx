@@ -11,12 +11,12 @@ import { Drawer, DrawerClose, DrawerContent, DrawerFooter, DrawerTrigger } from 
 import Workers from "@/components/Workers";
 
 
-const words = `“At Elevate Sales Inc, we're not just another sales company—we're your partner in driving success. Whether you need expert sales solutions or skilled professionals to boost your team, we have the right resources to take your business to the next level. We offer a unique blend of sales strategies, comprehensive training, and rigorous background checks to ensure that you only get the best.”`;
+const words = `“At Elevate PLC, we're not just another sales company—we're your partner in driving success. Whether you need expert sales solutions or skilled professionals to boost your team, we have the right resources to take your business to the next level. We offer a unique blend of sales strategies, comprehensive training, and rigorous background checks to ensure that you only get the best.”`;
 export default function Home() {
   return (
     <div className='w-full'>
      <div className='flex items-center justify-between px-6 md:px-10 py-3 fixed z-30  top-0 left-0 w-full bg-white'>
-        <Link href='/' className='text-secondary font-bold '>Elevate Sales Inc.</Link>
+        <Link href='/' className='text-secondary font-bold '>Elevate PLC.</Link>
        <div className='hidden md:flex items-center gap-6 '>
         <Link href='/' className='text-secondary font-bold hover:bg-secondary hover:text-white p-2 rounded-lg'> Home</Link>
         <Link href='/about' className='text-secondary font-bold hover:bg-secondary hover:text-white p-2 rounded-lg'> About Us</Link>
