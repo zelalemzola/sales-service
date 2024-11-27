@@ -53,7 +53,7 @@ export default function Home() {
         className='text-5xl text-[#4d4d4d] font-extrabold'
         direction="right"
         framerProps={{
-          show: { transition: { delay: 0.3 } },
+          show: { transition: { delay: 0.35 } },
 
         }}
         text="PREMIER"
@@ -62,23 +62,23 @@ export default function Home() {
         className='text-3xl md:text-5xl text-primary font-extrabold text-center'
         direction="left"
         framerProps={{
-          show: { transition: { delay: 0.35 } },
+          show: { transition: { delay: 0.4 } },
 
         }}
         text="Sales a Service Solution"
       />
         <FadeText
-        className='mt-2 p-3 border-2  border-primary rounded-full text-lg text-secondary'
+        className='mt-2 p-3 border-2  border-primary rounded-full text-lg text-secondary py-5'
         direction="down"
         framerProps={{
-          show: { transition: { delay: 0.4 } },
+          show: { transition: { delay: 0.45 } },
 
         }}
         text="Focus on what actually matters"
       />
         
    
-       <BlurFade delay={0.45} inView={true}>
+       <BlurFade delay={0.5} inView={true}>
          <button className=' bg-secondary hover:bg-secondary hover:shadow-lg text-white shadow-md rounded-full' >
       <Link href='/workers' className='flex items-center gap-2 p-3 px-5 '>
          <Search/> Gig Workers
