@@ -78,7 +78,7 @@ export default function Home() {
       />
         
    
-       <BlurFade delay={0.75} inView={true}>
+       <BlurFade delay={0.75} inView>
          <button className=' bg-secondary hover:bg-secondary hover:shadow-lg text-white shadow-md rounded-full cursor-pointer' >
       <Link href='/workers' className='flex items-center gap-2 p-3 px-5 '>
          <Search/> Gig Workers
@@ -103,6 +103,7 @@ export default function Home() {
         <TabsTrigger value="team">Team Augmentation</TabsTrigger>
       </TabsList>
       <TabsContent value="solution">
+         <BlurFade delay={0.45} inView>
        <div className=' bg-muted p-4 relative'>
         <h1 className='text-3xl md:text-4xl font-bold text-[#4d4d4d] '>Comprehensive Sales Solutions</h1>
         <div className='flex py-4 items-center'>
@@ -114,8 +115,10 @@ export default function Home() {
         </div>
         </div>
        </div>
+       </BlurFade>
       </TabsContent>
       <TabsContent value="trained">
+         <BlurFade delay={0.45} inView>
         <div className=' bg-muted p-4 relative'>
         <h1 className='text-3xl md:text-4xl font-bold text-[#4d4d4d] '>Hire Trained Sales Professionals</h1>
         <div className='flex py-4 items-center'>
@@ -132,8 +135,10 @@ export default function Home() {
         
         </div>
        </div>
+       </BlurFade>
       </TabsContent>
       <TabsContent value="team">
+         <BlurFade delay={0.75} inView>
        <div className=' bg-muted p-4 relative '>
         <h1 className='text-3xl md:text-4xl font-bold text-[#4d4d4d] '>Sales Team Augmentation</h1>
         <div className='flex py-4 items-center'>
@@ -145,6 +150,7 @@ export default function Home() {
         </div>
         </div>
        </div>
+       </BlurFade>
       </TabsContent>
     </Tabs>
       </div>
