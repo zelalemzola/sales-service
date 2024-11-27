@@ -48,12 +48,12 @@ export default function Home() {
       </div>
       <div className='landing h-screen w-full flex '>
       <div className='md:w-[50%]'></div>
-      <div className='w-full md:w-[50%] flex flex-col items-center justify-center gap-3'>
+      <div className='w-full md:w-[50%] flex flex-col items-center justify-center gap-8'>
         <FadeText
         className='text-5xl text-[#4d4d4d] font-extrabold'
         direction="right"
         framerProps={{
-          show: { transition: { delay: 0.35 } },
+          show: { transition: { delay: 0.45 } },
 
         }}
         text="PREMIER"
@@ -62,24 +62,24 @@ export default function Home() {
         className='text-3xl md:text-5xl text-primary font-extrabold text-center my-5'
         direction="left"
         framerProps={{
-          show: { transition: { delay: 0.4 } },
+          show: { transition: { delay: 0.55 } },
 
         }}
         text="Sales a Service Solution"
       />
         <FadeText
-        className='mt-2 p-3 border-2  border-primary rounded-full text-lg text-secondary my-5'
+        className='mt-2 p-3 border-2  border-primary rounded-full text-lg text-secondary my-7'
         direction="down"
         framerProps={{
-          show: { transition: { delay: 0.45 } },
+          show: { transition: { delay: 0.65 } },
 
         }}
         text="Focus on what actually matters"
       />
         
    
-       <BlurFade delay={0.5} inView={true}>
-         <button className=' bg-secondary hover:bg-secondary hover:shadow-lg text-white shadow-md rounded-full' >
+       <BlurFade delay={0.75} inView={true}>
+         <button className=' bg-secondary hover:bg-secondary hover:shadow-lg text-white shadow-md rounded-full cursor-pointer' >
       <Link href='/workers' className='flex items-center gap-2 p-3 px-5 '>
          <Search/> Gig Workers
           </Link>
