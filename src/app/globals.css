@@ -10,10 +10,11 @@
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 160,74%,27%;
+    --primary: 72, 19%, 16%;
     --primary-foreground: 210 40% 98%;
-    --secondary: 36,100%,56%;
+    --secondary: 6, 71%, 50%;
     --secondary-foreground: 222.2 47.4% 11.2%;
+    --teritary: 34, 31%, 72%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
     --accent: 210 40% 96.1%;
@@ -38,10 +39,11 @@
     --card-foreground: 210 40% 98%;
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
-    --primary: 210 40% 98%;
+    --primary: 72, 19%, 16%;
     --primary-foreground: 222.2 47.4% 11.2%;
-    --secondary: 217.2 32.6% 17.5%;
+    --secondary: 6, 71%, 50%;
     --secondary-foreground: 210 40% 98%;
+    --teritary: 34, 31%, 72%;
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
     --accent: 217.2 32.6% 17.5%;
@@ -69,16 +71,14 @@
 }
 
 .landing {
-  background-image: url('/sl.png');
+  background-image: url("/sl.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
 }
 .about {
-  background-image: url('/ab.png');
+  background-image: url("/ab.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
 }

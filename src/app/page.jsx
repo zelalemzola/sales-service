@@ -15,12 +15,12 @@ const words = `“At Elevate PLC, we're not just another sales company—we're y
 export default function Home() {
   return (
     <div className='w-full'>
-     <div className='flex items-center justify-between px-6 md:px-10 py-3 fixed z-30  top-0 left-0 w-full bg-white'>
+     <div className='flex items-center justify-between px-6 md:px-10 py-3 fixed z-30  top-0 left-0 w-full bg-white shadow-md'>
         <Link href='/' className='text-secondary font-bold '>Elevate PLC.</Link>
        <div className='hidden md:flex items-center gap-6 '>
-        <Link href='/' className='text-secondary font-bold hover:bg-secondary hover:text-white p-2 rounded-lg'> Home</Link>
-        <Link href='/about' className='text-secondary font-bold hover:bg-secondary hover:text-white p-2 rounded-lg'> About Us</Link>
-        <Link href='/services' className='text-secondary font-bold hover:bg-secondary hover:text-white p-2 rounded-lg'> Services</Link>
+        <Link href='/' className='text-[#e59c71] font-bold  hover:text-secondary p-2 '> Home</Link>
+        <Link href='/about' className='text-[#e59c71] font-bold  hover:text-secondary p-2 '> About Us</Link>
+        <Link href='/services' className='text-[#e59c71] font-bold  hover:text-secondary p-2 '> Services</Link>
         <HeroButton/>
         </div>
          <div className='block md:hidden'>
@@ -73,10 +73,10 @@ export default function Home() {
       </TabsList>
       <TabsContent value="solution">
        <div className=' bg-muted p-4 relative'>
-        <h1 className='text-3xl md:text-4xl font-bold text-primary '>Comprehensive Sales Solutions</h1>
+        <h1 className='text-3xl md:text-4xl font-bold text-[#4d4d4d] '>Comprehensive Sales Solutions</h1>
         <div className='flex py-4 items-center'>
         <div className='w-full md:w-1/2'>
-        <p className='text-lg text-secondary'>We provide end-to-end sales solutions tailored to your business needs. Our team of seasoned sales experts works closely with you to develop strategies that deliver measurable results. From lead generation to closing deals, we’ve got you covered.</p>
+        <p className='text-lg text-primary'>We provide end-to-end sales solutions tailored to your business needs. Our team of seasoned sales experts works closely with you to develop strategies that deliver measurable results. From lead generation to closing deals, we’ve got you covered.</p>
         </div>
         <div className='hidden md:block md:w-1/2'>
         <Image src='/sr1.png' width={500} height={500} alt=''/>
@@ -86,16 +86,16 @@ export default function Home() {
       </TabsContent>
       <TabsContent value="trained">
         <div className=' bg-muted p-4 relative'>
-        <h1 className='text-3xl md:text-4xl font-bold text-primary '>Hire Trained Sales Professionals</h1>
+        <h1 className='text-3xl md:text-4xl font-bold text-[#4d4d4d] '>Hire Trained Sales Professionals</h1>
         <div className='flex py-4 items-center'>
         <div className='hidden md:block md:w-1/2'>
         <Image src='/sr2.png' width={600} height={600} alt=''/>
         </div>
         <div className='w-full md:w-1/2 flex flex-col gap-2'>
-        <p className='text-lg text-secondary'>Need extra hands on deck? Choose from our pool of professionals who have been rigorously trained and vetted to meet the highest industry standards. Whether you need someone for a specific project or ongoing support, our professionals are available for:</p>
-        <p className='text-lg text-secondary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Hourly Engagements:</span> Flexibility to meet your immediate needs without long-term commitments.</p>
-        <p className='text-lg text-secondary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Monthly Contracts:</span> Bring in the expertise you need for sustained growth and consistent performance.</p>
-        <p className='text-lg text-secondary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Project-Based Contracts: </span>  Leverage top-tier talent for the duration of your projects, ensuring quality outcomes every time.</p>
+        <p className='text-lg text-primary'>Need extra hands on deck? Choose from our pool of professionals who have been rigorously trained and vetted to meet the highest industry standards. Whether you need someone for a specific project or ongoing support, our professionals are available for:</p>
+        <p className='text-lg text-primary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Hourly Engagements:</span> Flexibility to meet your immediate needs without long-term commitments.</p>
+        <p className='text-lg text-primary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Monthly Contracts:</span> Bring in the expertise you need for sustained growth and consistent performance.</p>
+        <p className='text-lg text-primary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Project-Based Contracts: </span>  Leverage top-tier talent for the duration of your projects, ensuring quality outcomes every time.</p>
        
         </div>
         
@@ -104,10 +104,10 @@ export default function Home() {
       </TabsContent>
       <TabsContent value="team">
        <div className=' bg-muted p-4 relative '>
-        <h1 className='text-3xl md:text-4xl font-bold text-primary '>Sales Team Augmentation</h1>
+        <h1 className='text-3xl md:text-4xl font-bold text-[#4d4d4d] '>Sales Team Augmentation</h1>
         <div className='flex py-4 items-center'>
         <div className='w-full md:w-1/2'>
-        <p className='text-lg text-secondary'>Looking to scale your sales team? We provide seamless team augmentation services, allowing you to expand your sales force without the overhead. Our professionals integrate with your existing team, bringing fresh energy and expertise to drive results..</p>
+        <p className='text-lg text-primary'>Looking to scale your sales team? We provide seamless team augmentation services, allowing you to expand your sales force without the overhead. Our professionals integrate with your existing team, bringing fresh energy and expertise to drive results..</p>
         </div>
         <div className='hidden md:block md:w-1/2'>
         <Image src='/sr3.png' width={600} height={600} alt=''/>
@@ -121,24 +121,24 @@ export default function Home() {
         <h1 className='text-primary text-4xl font-bold text-center pb-10'>Why Choose Us <span className='text-secondary'>?</span></h1>
         <div className='flex flex-wrap gap-5  '>
           <div className='shadow-md hover:shadow-xl border-secondary bg-primary  p-4 flex flex-col rounded-2xl w-[90%] md:w-[25%] mx-auto md:mx-0'>
-            <h2 className='text-secondary text-lg w-full font-bold'>Expertise & Experience:</h2>
+            <h2 className='text-[#cdbaa1] text-lg w-full font-bold'>Expertise & Experience:</h2>
             <p className='text-white py-2'> Our team consists of industry veterans with a proven track record of success in diverse markets.</p>
           </div>
-          <div className='shadow-md hover:shadow-xl border-primary bg-secondary p-4 flex flex-col rounded-2xl w-[90%] md:w-[40%]  mx-auto md:mx-0'>
+          <div className='shadow-md hover:shadow-xl border-primary bg-[#e59c71] p-4 flex flex-col rounded-2xl w-[90%] md:w-[40%]  mx-auto md:mx-0'>
             <h2 className='text-primary text-lg w-full font-bold'>Rigorous Vetting Process:</h2>
             <p className='text-white py-2'> Every professional in our network has undergone a comprehensive background check and skills assessment, ensuring you receive top-tier talent.</p>
           </div>
            <div className='shadow-md hover:shadow-xl border-secondary bg-primary  p-4 flex flex-col rounded-2xl w-[90%] md:w-[30%]  mx-auto md:mx-0'>
-            <h2 className='text-secondary text-lg w-full font-bold'>Custom Solutions: </h2>
+            <h2 className='text-[#cdbaa1] text-lg w-full font-bold'>Custom Solutions: </h2>
             <p className='text-white py-2'>We understand that every business is unique. That’s why we offer customizable solutions that align with your specific goals and challenges.</p>
           </div>
 
-          <div className='shadow-md hover:shadow-xl border-primary bg-secondary  p-4 flex flex-col rounded-2xl w-[90%] md:w-[55%]  mx-auto md:mx-0'>
+          <div className='shadow-md hover:shadow-xl border-primary bg-[#e59c71] p-4 flex flex-col rounded-2xl w-[90%] md:w-[55%]  mx-auto md:mx-0'>
             <h2 className='text-primary text-lg w-full font-bold'>Flexibility:</h2>
             <p className='text-white py-2'> Whether you need short-term help or long-term support, we offer flexible hiring options to suit your business needs.</p>
           </div>
           <div className='shadow-md hover:shadow-xl border-secondary bg-primary p-4 flex flex-col rounded-2xl w-[90%] md:w-[40%]  mx-auto md:mx-0'>
-            <h2 className='text-secondary text-lg w-full font-bold'>Commitment to Excellence: </h2>
+            <h2 className='text-[#cdbaa1] text-lg w-full font-bold'>Commitment to Excellence: </h2>
             <p className='text-white py-2'> We are committed to delivering exceptional service and driving tangible results for your business.</p>
           </div>
         </div>
@@ -146,21 +146,21 @@ export default function Home() {
       <div className='md:h-screen w-full py-5 px-4'>
         <h1 className='text-4xl text-primary font-bold text-center pb-[10%]'>How To <span className='text-secondary'>Get Started?</span></h1>
         <div className='flex flex-col md:flex-row  gap-4 items-center'>
-          <div className='bg-primary rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
-            <p className='bg-secondary text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>1</p>
+          <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
+            <p className='bg-secondary text-[white] font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>1</p>
             <h1 className='text-secondary font-bold text-xl text-center'>Consultation:</h1>
             <p className='text-lg text-white text-center'> We begin with a deep dive into your business needs and goals.</p>
           </div>
             <ArrowRight className='hidden md:block  font-bold text-white text-4xl scale-[150%] bg-secondary rounded-full' />
             <ArrowDown className='block md:hidden  font-bold text-white text-4xl scale-[150%] bg-secondary rounded-full' />
-          <div className='bg-primary rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
+          <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
             <p className='bg-secondary text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>2</p>
             <h1 className='text-secondary font-bold text-xl text-center'>Customized Plan:</h1>
             <p className='text-lg text-white text-center'> Our experts develop a tailored strategy, whether it&lsquo;s providing sales solutions or matching you with the right professionals.</p>
           </div>
             <ArrowRight className='hidden md:block  font-bold text-white text-4xl scale-[150%] bg-secondary rounded-full' />
             <ArrowDown className='block md:hidden  font-bold text-white text-4xl scale-[150%] bg-secondary rounded-full' />
-          <div className='bg-primary rounded-2xl p-3 flex flex-col gap-3  w-[90%] md:w-[30%]'>
+          <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3  w-[90%] md:w-[30%]'>
             <p className='bg-secondary text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>3</p>
             <h1 className='text-secondary font-bold text-xl text-center'>Execution:</h1>
             <p className='text-lg text-white text-center'>We deploy the plan, providing continuous support and adjustments as needed.</p>
