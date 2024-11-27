@@ -59,7 +59,7 @@ export default function Home() {
         text="PREMIER"
       />
         <FadeText
-        className='text-3xl md:text-5xl text-primary font-extrabold text-center'
+        className='text-3xl md:text-5xl text-primary font-extrabold text-center my-5'
         direction="left"
         framerProps={{
           show: { transition: { delay: 0.4 } },
@@ -68,7 +68,7 @@ export default function Home() {
         text="Sales a Service Solution"
       />
         <FadeText
-        className='mt-2 p-3 border-2  border-primary rounded-full text-lg text-secondary py-5'
+        className='mt-2 p-3 border-2  border-primary rounded-full text-lg text-secondary my-5'
         direction="down"
         framerProps={{
           show: { transition: { delay: 0.45 } },
