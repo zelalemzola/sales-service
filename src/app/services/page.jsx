@@ -55,7 +55,7 @@ const Services = () => {
         <h1 className='text-3xl md:text-4xl font-bold text-primary '>Comprehensive Sales Solutions</h1>
         <div className='flex py-4 items-center'>
         <div className='w-full md:w-1/2'>
-        <p className='text-lg text-secondary'>We provide end-to-end sales solutions tailored to your business needs. Our team of seasoned sales experts works closely with you to develop strategies that deliver measurable results. From lead generation to closing deals, we’ve got you covered.</p>
+        <p className='text-lg text-primary'>We provide end-to-end sales solutions tailored to your business needs. Our team of seasoned sales experts works closely with you to develop strategies that deliver measurable results. From lead generation to closing deals, we’ve got you covered.</p>
         </div>
         <div className='hidden md:block md:w-1/2'>
         <Image src='/sr1.png' width={500} height={500} alt=''/>
@@ -71,10 +71,10 @@ const Services = () => {
         <Image src='/sr2.png' width={600} height={600} alt=''/>
         </div>
         <div className='w-full md:w-1/2 flex flex-col gap-2'>
-        <p className='text-lg text-secondary'>Need extra hands on deck? Choose from our pool of professionals who have been rigorously trained and vetted to meet the highest industry standards. Whether you need someone for a specific project or ongoing support, our professionals are available for:</p>
-        <p className='text-lg text-secondary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Hourly Engagements:</span> Flexibility to meet your immediate needs without long-term commitments.</p>
-        <p className='text-lg text-secondary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Monthly Contracts:</span> Bring in the expertise you need for sustained growth and consistent performance.</p>
-        <p className='text-lg text-secondary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Project-Based Contracts: </span>  Leverage top-tier talent for the duration of your projects, ensuring quality outcomes every time.</p>
+        <p className='text-lg text-primary'>Need extra hands on deck? Choose from our pool of professionals who have been rigorously trained and vetted to meet the highest industry standards. Whether you need someone for a specific project or ongoing support, our professionals are available for:</p>
+        <p className='text-lg text-primary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Hourly Engagements:</span> Flexibility to meet your immediate needs without long-term commitments.</p>
+        <p className='text-lg text-primary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Monthly Contracts:</span> Bring in the expertise you need for sustained growth and consistent performance.</p>
+        <p className='text-lg text-primary pl-[5%] flex flex-col items-start gap-2 '><span className='font-bold text-xl flex items-center gap-2'><ArrowRight className='bg-primary rounded-full text-white'/> Project-Based Contracts: </span>  Leverage top-tier talent for the duration of your projects, ensuring quality outcomes every time.</p>
        
         </div>
         
@@ -86,7 +86,7 @@ const Services = () => {
         <h1 className='text-3xl md:text-4xl font-bold text-primary '>Sales Team Augmentation</h1>
         <div className='flex py-4 items-center'>
         <div className='w-full md:w-1/2'>
-        <p className='text-lg text-secondary'>Looking to scale your sales team? We provide seamless team augmentation services, allowing you to expand your sales force without the overhead. Our professionals integrate with your existing team, bringing fresh energy and expertise to drive results..</p>
+        <p className='text-lg text-primary'>Looking to scale your sales team? We provide seamless team augmentation services, allowing you to expand your sales force without the overhead. Our professionals integrate with your existing team, bringing fresh energy and expertise to drive results..</p>
         </div>
         <div className='hidden md:block md:w-1/2'>
         <Image src='/sr3.png' width={600} height={600} alt=''/>
