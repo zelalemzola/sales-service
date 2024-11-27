@@ -9,6 +9,8 @@ import { ArrowDown, ArrowRight, Facebook, Instagram, Linkedin, Mail, Menu, Phone
 import Partners from "@/components/Partners";
 import { Drawer, DrawerClose, DrawerContent, DrawerFooter, DrawerTrigger } from "@/components/ui/drawer";
 import Workers from "@/components/Workers";
+import { FadeText } from "@/components/ui/fade-text";
+import BlurFade from "@/components/ui/blur-fade";
 
 
 const words = `“At Elevate PLC, we're not just another sales company—we're your partner in driving success. Whether you need expert sales solutions or skilled professionals to boost your team, we have the right resources to take your business to the next level. We offer a unique blend of sales strategies, comprehensive training, and rigorous background checks to ensure that you only get the best.”`;
@@ -47,14 +49,43 @@ export default function Home() {
       <div className='landing h-screen w-full flex '>
       <div className='md:w-[50%]'></div>
       <div className='w-full md:w-[50%] flex flex-col items-center justify-center gap-3'>
-        <h1 className='text-5xl text-[#4d4d4d] font-extrabold'>PREMIER</h1>
-        <h1 className='text-3xl md:text-5xl text-primary font-extrabold text-center'> Sales a Service Solution</h1>
-        <p className='mt-2 p-3 border-2  border-primary rounded-full text-lg text-secondary'>Focus on what actually matters</p>
+        <FadeText
+        className='text-5xl text-[#4d4d4d] font-extrabold'
+        direction="right"
+        framerProps={{
+          show: { transition: { delay: 0.3 } },
+
+        }}
+        text="PREMIER"
+      />
+        <FadeText
+        className='text-3xl md:text-5xl text-primary font-extrabold text-center'
+        direction="left"
+        framerProps={{
+          show: { transition: { delay: 0.35 } },
+
+        }}
+        text="Sales a Service Solution"
+      />
+        <FadeText
+        className='mt-2 p-3 border-2  border-primary rounded-full text-lg text-secondary'
+        direction="down"
+        framerProps={{
+          show: { transition: { delay: 0.4 } },
+
+        }}
+        text="Focus on what actually matters"
+      />
+        
+   
+       <BlurFade delay={0.45} inView={true}>
          <button className=' bg-secondary hover:bg-secondary hover:shadow-lg text-white shadow-md rounded-full' >
       <Link href='/workers' className='flex items-center gap-2 p-3 px-5 '>
          <Search/> Gig Workers
           </Link>
         </button>
+      </BlurFade>
+        
       </div>
       </div>
       <div className='md:h-screen w-full about py-[20%] md:py-[15%]'>
