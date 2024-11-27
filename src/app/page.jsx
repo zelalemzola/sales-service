@@ -147,22 +147,22 @@ export default function Home() {
         <h1 className='text-4xl text-primary font-bold text-center pb-[10%]'>How To <span className='text-secondary'>Get Started?</span></h1>
         <div className='flex flex-col md:flex-row  gap-4 items-center'>
           <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
-            <p className='bg-primary text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>1</p>
-            <h1 className='text-secondary font-bold text-xl text-center'>Consultation:</h1>
+            <p className='bg-[#4d4d4d] text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>1</p>
+            <h1 className='text-[#4d4d4d] font-bold text-xl text-center'>Consultation:</h1>
             <p className='text-lg text-white text-center'> We begin with a deep dive into your business needs and goals.</p>
           </div>
-            <ArrowRight className='hidden md:block  font-bold text-white text-4xl scale-[150%] bg-primary rounded-full' />
-            <ArrowDown className='block md:hidden  font-bold text-white text-4xl scale-[150%] bg-primary rounded-full' />
+            <ArrowRight className='hidden md:block  font-bold text-white text-4xl scale-[150%] bg-[#e59c71] rounded-full' />
+            <ArrowDown className='block md:hidden  font-bold text-white text-4xl scale-[150%] bg-[#e59c71] rounded-full' />
           <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
-            <p className='bg-primary text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>2</p>
-            <h1 className='text-secondary font-bold text-xl text-center'>Customized Plan:</h1>
+            <p className='bg-[#4d4d4d] text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>2</p>
+            <h1 className='text-[#4d4d4d] font-bold text-xl text-center'>Customized Plan:</h1>
             <p className='text-lg text-white text-center'> Our experts develop a tailored strategy, whether it&lsquo;s providing sales solutions or matching you with the right professionals.</p>
           </div>
-            <ArrowRight className='hidden md:block  font-bold text-white text-4xl scale-[150%] bg-primary rounded-full' />
-            <ArrowDown className='block md:hidden  font-bold text-white text-4xl scale-[150%] bg-primary rounded-full' />
+            <ArrowRight className='hidden md:block  font-bold text-white text-4xl scale-[150%] bg-[#e59c71] rounded-full' />
+            <ArrowDown className='block md:hidden  font-bold text-white text-4xl scale-[150%] bg-[#e59c71] rounded-full' />
           <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3  w-[90%] md:w-[30%]'>
-            <p className='bg-primary text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>3</p>
-            <h1 className='text-secondary font-bold text-xl text-center'>Execution:</h1>
+            <p className='bg-[#4d4d4d] text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>3</p>
+            <h1 className='text-[#4d4d4d] font-bold text-xl text-center'>Execution:</h1>
             <p className='text-lg text-white text-center'>We deploy the plan, providing continuous support and adjustments as needed.</p>
           </div>
             
@@ -178,7 +178,7 @@ export default function Home() {
         <h2 className='text-primary text-3xl font-extrabold pt-4 '>Join Our Network</h2>
         <p className='text-[#4d4d4d] text-lg'>Are you a sales professional looking to work with leading businesses? Join our network to access top-tier opportunities and grow your career.</p>
         <div className='border-2 border-primary shadow-lg my-3'></div>
-       <h2 className='text-secondary text-3xl font-extrabold pt-4 '> Get Started Today</h2>
+       <h2 className='text-[#e59c71] text-3xl font-extrabold pt-4 '> Get Started Today</h2>
        <div className='flex flex-col md:flex-row items-start justify-between '>
         <p className='text-[#4d4d4d] text-lg'>Ready to take your sales to the next level? Contact us to schedule a consultation and discover how we can help you achieve your business goals.</p>
         <Button className='bg-secondary text-white flex items-center text-lg hover:bg-secondary shadow-2xl'><Phone/> 9080</Button>
