@@ -145,7 +145,7 @@ export default function Home() {
       </div>
       <div className='md:h-screen w-full py-5 px-4'>
         <h1 className='text-4xl text-primary font-bold text-center pb-[10%]'>How To <span className='text-secondary'>Get Started?</span></h1>
-        <div className='flex flex-col md:flex-row  gap-4 items-center'>
+        <div className='flex flex-col md:flex-row  gap-6  items-center'>
           <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
             <p className='bg-[#4d4d4d] text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>1</p>
             <h1 className='text-[#4d4d4d] font-bold text-xl text-center'>Consultation:</h1>
