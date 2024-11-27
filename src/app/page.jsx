@@ -147,21 +147,21 @@ export default function Home() {
         <h1 className='text-4xl text-primary font-bold text-center pb-[10%]'>How To <span className='text-secondary'>Get Started?</span></h1>
         <div className='flex flex-col md:flex-row  gap-4 items-center'>
           <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
-            <p className='bg-secondary text-[white] font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>1</p>
+            <p className='bg-primary text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>1</p>
             <h1 className='text-secondary font-bold text-xl text-center'>Consultation:</h1>
             <p className='text-lg text-white text-center'> We begin with a deep dive into your business needs and goals.</p>
           </div>
-            <ArrowRight className='hidden md:block  font-bold text-white text-4xl scale-[150%] bg-secondary rounded-full' />
-            <ArrowDown className='block md:hidden  font-bold text-white text-4xl scale-[150%] bg-secondary rounded-full' />
+            <ArrowRight className='hidden md:block  font-bold text-white text-4xl scale-[150%] bg-primary rounded-full' />
+            <ArrowDown className='block md:hidden  font-bold text-white text-4xl scale-[150%] bg-primary rounded-full' />
           <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
-            <p className='bg-secondary text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>2</p>
+            <p className='bg-primary text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>2</p>
             <h1 className='text-secondary font-bold text-xl text-center'>Customized Plan:</h1>
             <p className='text-lg text-white text-center'> Our experts develop a tailored strategy, whether it&lsquo;s providing sales solutions or matching you with the right professionals.</p>
           </div>
-            <ArrowRight className='hidden md:block  font-bold text-white text-4xl scale-[150%] bg-secondary rounded-full' />
-            <ArrowDown className='block md:hidden  font-bold text-white text-4xl scale-[150%] bg-secondary rounded-full' />
+            <ArrowRight className='hidden md:block  font-bold text-white text-4xl scale-[150%] bg-primary rounded-full' />
+            <ArrowDown className='block md:hidden  font-bold text-white text-4xl scale-[150%] bg-primary rounded-full' />
           <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3  w-[90%] md:w-[30%]'>
-            <p className='bg-secondary text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>3</p>
+            <p className='bg-primary text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>3</p>
             <h1 className='text-secondary font-bold text-xl text-center'>Execution:</h1>
             <p className='text-lg text-white text-center'>We deploy the plan, providing continuous support and adjustments as needed.</p>
           </div>

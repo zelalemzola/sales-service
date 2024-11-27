@@ -124,8 +124,8 @@ const Workers = () => {
   return (
     <div className="w-full mx-auto mt-[20px] flex flex-col ">
       <div className="w-full flex flex-wrap items-center justify-between fixed top-0 z-30 bg-white border-b rounded-b-2xl px-[4%] md:px-[10%] py-3 shadow-md">
-      <Link href='/'><ArrowLeft fontWeight='bold' size={33} className="text-white bg-secondary font-bold p-1 rounded-full md:scale-200 cursor-pointer" /></Link>
-        <p className="text-secondary text-lg md:text-2xl font-bold flex flex-col md:flex-row items-center gap-3">Available Experts: <span className="text-secondary">({maidsCount})</span></p>
+      <Link href='/'><ArrowLeft fontWeight='bold' size={33} className="text-white bg-[#e59c71] font-bold p-1 rounded-full md:scale-200 cursor-pointer" /></Link>
+        <p className="text-[#e59c71] text-lg md:text-2xl font-bold flex flex-col md:flex-row items-center gap-3">Available Experts: <span className="text-secondary">({maidsCount})</span></p>
         <Dialog className="flex-end">
           <DialogTrigger>
             <Button className="flex items-center gap-3 bg-secondary hover:bg-secondary">Filter <FilterIcon className='hidden md:block'/></Button>
@@ -223,7 +223,7 @@ const Workers = () => {
              
                 <Drawer>
                   <DrawerTrigger>
-                     <Button className="flex items-center gap-3 bg-secondary hover:bg-secondary" >View Detail <Eye /></Button>  
+                     <Button className="flex items-center gap-3 bg-[#e59c71] hover:bg-secondary" >View Detail <Eye /></Button>  
                   </DrawerTrigger>
                   <DrawerContent className='h-[95%] '>
                      <div className="h-[85%] overflow-y-auto px-6">
