@@ -198,30 +198,42 @@ export default function Home() {
       <div className='md:h-screen w-full py-5 px-4'>
         <h1 className='text-4xl text-primary font-bold text-center pb-[10%]'>How To <span className='text-secondary'>Get Started?</span></h1>
         <div className='flex flex-col md:flex-row  gap-6  items-center'>
+         
+          <BlurFade delay={0.35} inView>
           <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
             <p className='bg-[#4d4d4d] text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>1</p>
             <h1 className='text-[#4d4d4d] font-bold text-xl text-center'>Consultation:</h1>
             <p className='text-lg text-white text-center'> We begin with a deep dive into your business needs and goals.</p>
           </div>
+          </BlurFade>
+             <BlurFade delay={0.45} inView>
             <ArrowRight className='hidden md:block  font-bold text-white text-4xl scale-[150%] bg-[#e59c71] rounded-full' />
             <ArrowDown className='block md:hidden  font-bold text-white text-4xl scale-[150%] bg-[#e59c71] rounded-full' />
+           </BlurFade>
+         <BlurFade delay={0.55} inView>
           <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
             <p className='bg-[#4d4d4d] text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>2</p>
             <h1 className='text-[#4d4d4d] font-bold text-xl text-center'>Customized Plan:</h1>
             <p className='text-lg text-white text-center'> Our experts develop a tailored strategy, whether it&lsquo;s providing sales solutions or matching you with the right professionals.</p>
           </div>
+          </BlurFade>
+           <BlurFade delay={0.65} inView>
             <ArrowRight className='hidden md:block  font-bold text-white text-4xl scale-[150%] bg-[#e59c71] rounded-full' />
             <ArrowDown className='block md:hidden  font-bold text-white text-4xl scale-[150%] bg-[#e59c71] rounded-full' />
+         </BlurFade>
+         
+          <BlurFade delay={0.75} inView>
           <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3  w-[90%] md:w-[30%]'>
             <p className='bg-[#4d4d4d] text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>3</p>
             <h1 className='text-[#4d4d4d] font-bold text-xl text-center'>Execution:</h1>
             <p className='text-lg text-white text-center'>We deploy the plan, providing continuous support and adjustments as needed.</p>
           </div>
-            
+            </BlurFade>
           
           
         </div>
       </div>
+      
       <Workers/>
       <Partners/>
 
