@@ -157,36 +157,36 @@ export default function Home() {
       <div className='md:h-screen w-full py-10 px-4'>
         <h1 className='text-primary text-4xl font-bold text-center pb-10'>Why Choose Us <span className='text-secondary'>?</span></h1>
         <div className='flex flex-wrap gap-5  '>
-          <BlurFade delay={0.35} inView>
-          <div className='shadow-md hover:shadow-xl border-secondary bg-primary  p-4 flex flex-col rounded-2xl w-[90%] md:w-[25%] mx-auto md:mx-0'>
+          <BlurFade delay={0.35} inView className='shadow-md hover:shadow-xl border-secondary bg-primary  p-4 flex flex-col rounded-2xl w-[90%] md:w-[25%] mx-auto md:mx-0'>
+          <div >
             <h2 className='text-[#cdbaa1] text-lg w-full font-bold'>Expertise & Experience:</h2>
             <p className='text-white py-2'> Our team consists of industry veterans with a proven track record of success in diverse markets.</p>
           </div>
           </BlurFade>
 
-           <BlurFade delay={0.45} inView>
-          <div className='shadow-md hover:shadow-xl border-primary bg-[#e59c71] p-4 flex flex-col rounded-2xl w-[90%] md:w-[40%]  mx-auto md:mx-0'>
+           <BlurFade delay={0.45} inView className='shadow-md hover:shadow-xl border-primary bg-[#e59c71] p-4 flex flex-col rounded-2xl w-[90%] md:w-[40%]  mx-auto md:mx-0'>
+          <div >
             <h2 className='text-primary text-lg w-full font-bold'>Rigorous Vetting Process:</h2>
             <p className='text-white py-2'> Every professional in our network has undergone a comprehensive background check and skills assessment, ensuring you receive top-tier talent.</p>
           </div>
           </BlurFade>
 
-             <BlurFade delay={0.55} inView>
-           <div className='shadow-md hover:shadow-xl border-secondary bg-primary  p-4 flex flex-col rounded-2xl w-[90%] md:w-[30%]  mx-auto md:mx-0'>
+             <BlurFade delay={0.55} inView className='shadow-md hover:shadow-xl border-secondary bg-primary  p-4 flex flex-col rounded-2xl w-[90%] md:w-[30%]  mx-auto md:mx-0'>
+           <div >
             <h2 className='text-[#cdbaa1] text-lg w-full font-bold'>Custom Solutions: </h2>
             <p className='text-white py-2'>We understand that every business is unique. That’s why we offer customizable solutions that align with your specific goals and challenges.</p>
           </div>
           </BlurFade>
 
-             <BlurFade delay={0.65} inView>
-          <div className='shadow-md hover:shadow-xl border-primary bg-[#e59c71] p-4 flex flex-col rounded-2xl w-[90%] md:w-[55%]  mx-auto md:mx-0'>
+             <BlurFade delay={0.65} inView className='shadow-md hover:shadow-xl border-primary bg-[#e59c71] p-4 flex flex-col rounded-2xl w-[90%] md:w-[55%]  mx-auto md:mx-0'>
+          <div >
             <h2 className='text-primary text-lg w-full font-bold'>Flexibility:</h2>
             <p className='text-white py-2'> Whether you need short-term help or long-term support, we offer flexible hiring options to suit your business needs.</p>
           </div>
           </BlurFade>
 
-           <BlurFade delay={0.75} inView>
-          <div className='shadow-md hover:shadow-xl border-secondary bg-primary p-4 flex flex-col rounded-2xl w-[90%] md:w-[40%]  mx-auto md:mx-0'>
+           <BlurFade delay={0.75} inView className='shadow-md hover:shadow-xl border-secondary bg-primary p-4 flex flex-col rounded-2xl w-[90%] md:w-[40%]  mx-auto md:mx-0'>
+          <div >
             <h2 className='text-[#cdbaa1] text-lg w-full font-bold'>Commitment to Excellence: </h2>
             <p className='text-white py-2'> We are committed to delivering exceptional service and driving tangible results for your business.</p>
           </div>
@@ -199,8 +199,8 @@ export default function Home() {
         <h1 className='text-4xl text-primary font-bold text-center pb-[10%]'>How To <span className='text-secondary'>Get Started?</span></h1>
         <div className='flex flex-col md:flex-row  gap-6  items-center'>
          
-          <BlurFade delay={0.35} inView>
-          <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
+          <BlurFade delay={0.35} inView className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
+          <div >
             <p className='bg-[#4d4d4d] text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>1</p>
             <h1 className='text-[#4d4d4d] font-bold text-xl text-center'>Consultation:</h1>
             <p className='text-lg text-white text-center'> We begin with a deep dive into your business needs and goals.</p>
@@ -210,8 +210,8 @@ export default function Home() {
             <ArrowRight className='hidden md:block  font-bold text-white text-4xl scale-[150%] bg-[#e59c71] rounded-full' />
             <ArrowDown className='block md:hidden  font-bold text-white text-4xl scale-[150%] bg-[#e59c71] rounded-full' />
            </BlurFade>
-         <BlurFade delay={0.55} inView>
-          <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
+         <BlurFade delay={0.55} inView className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3 w-[90%] md:w-[30%]'>
+          <div >
             <p className='bg-[#4d4d4d] text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>2</p>
             <h1 className='text-[#4d4d4d] font-bold text-xl text-center'>Customized Plan:</h1>
             <p className='text-lg text-white text-center'> Our experts develop a tailored strategy, whether it&lsquo;s providing sales solutions or matching you with the right professionals.</p>
@@ -222,8 +222,8 @@ export default function Home() {
             <ArrowDown className='block md:hidden  font-bold text-white text-4xl scale-[150%] bg-[#e59c71] rounded-full' />
          </BlurFade>
          
-          <BlurFade delay={0.75} inView>
-          <div className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3  w-[90%] md:w-[30%]'>
+          <BlurFade delay={0.75} inView className='bg-[#e59c71] rounded-2xl p-3 flex flex-col gap-3  w-[90%] md:w-[30%]'>
+          <div >
             <p className='bg-[#4d4d4d] text-white font-bold rounded-full p-2 px-4 w-fit text-center mx-auto'>3</p>
             <h1 className='text-[#4d4d4d] font-bold text-xl text-center'>Execution:</h1>
             <p className='text-lg text-white text-center'>We deploy the plan, providing continuous support and adjustments as needed.</p>
@@ -233,7 +233,7 @@ export default function Home() {
           
         </div>
       </div>
-      
+
       <Workers/>
       <Partners/>
 
