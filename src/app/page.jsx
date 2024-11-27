@@ -157,27 +157,42 @@ export default function Home() {
       <div className='md:h-screen w-full py-10 px-4'>
         <h1 className='text-primary text-4xl font-bold text-center pb-10'>Why Choose Us <span className='text-secondary'>?</span></h1>
         <div className='flex flex-wrap gap-5  '>
+          <BlurFade delay={0.35} inView>
           <div className='shadow-md hover:shadow-xl border-secondary bg-primary  p-4 flex flex-col rounded-2xl w-[90%] md:w-[25%] mx-auto md:mx-0'>
             <h2 className='text-[#cdbaa1] text-lg w-full font-bold'>Expertise & Experience:</h2>
             <p className='text-white py-2'> Our team consists of industry veterans with a proven track record of success in diverse markets.</p>
           </div>
+          </BlurFade>
+
+           <BlurFade delay={0.45} inView>
           <div className='shadow-md hover:shadow-xl border-primary bg-[#e59c71] p-4 flex flex-col rounded-2xl w-[90%] md:w-[40%]  mx-auto md:mx-0'>
             <h2 className='text-primary text-lg w-full font-bold'>Rigorous Vetting Process:</h2>
             <p className='text-white py-2'> Every professional in our network has undergone a comprehensive background check and skills assessment, ensuring you receive top-tier talent.</p>
           </div>
+          </BlurFade>
+
+             <BlurFade delay={0.55} inView>
            <div className='shadow-md hover:shadow-xl border-secondary bg-primary  p-4 flex flex-col rounded-2xl w-[90%] md:w-[30%]  mx-auto md:mx-0'>
             <h2 className='text-[#cdbaa1] text-lg w-full font-bold'>Custom Solutions: </h2>
             <p className='text-white py-2'>We understand that every business is unique. That’s why we offer customizable solutions that align with your specific goals and challenges.</p>
           </div>
+          </BlurFade>
 
+             <BlurFade delay={0.65} inView>
           <div className='shadow-md hover:shadow-xl border-primary bg-[#e59c71] p-4 flex flex-col rounded-2xl w-[90%] md:w-[55%]  mx-auto md:mx-0'>
             <h2 className='text-primary text-lg w-full font-bold'>Flexibility:</h2>
             <p className='text-white py-2'> Whether you need short-term help or long-term support, we offer flexible hiring options to suit your business needs.</p>
           </div>
+          </BlurFade>
+
+           <BlurFade delay={0.75} inView>
           <div className='shadow-md hover:shadow-xl border-secondary bg-primary p-4 flex flex-col rounded-2xl w-[90%] md:w-[40%]  mx-auto md:mx-0'>
             <h2 className='text-[#cdbaa1] text-lg w-full font-bold'>Commitment to Excellence: </h2>
             <p className='text-white py-2'> We are committed to delivering exceptional service and driving tangible results for your business.</p>
           </div>
+          </BlurFade>
+
+
         </div>
       </div>
       <div className='md:h-screen w-full py-5 px-4'>
